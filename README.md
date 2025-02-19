@@ -7,5 +7,5 @@
     -Media Query
 
 
--Introdução ao JavaScript
+- Introdução ao JavaScript
     -lógica do site
