@@ -8,7 +8,7 @@ let mixArray = [1, "Sessenta", true];
 
 
 //como acessar os elementos?? (pelo indice = quant total de elementos -1)
-console.log (textoArray [2]);  // "Gato"
+console.log (textoArray [1]);  // "Gato"
 console.log (numberArray [6]);  // 7
 
 
