@@ -1,0 +1,37 @@
+[
+    {
+        "pergunta": "Qual é a capital do Brasil?",
+        "opcoes": ["São Paulo", "Rio de Janeiro", "Brasília", "Salvador"],
+        "resposta": "Brasília"
+    },
+
+    {
+        "pergunta": "Qual é o maior planeta do Sistema Solar?",
+        "opcoes": ["Júpiter", "Marte", "Terra", "Saturno"],
+        "resposta": "Júpiter"
+    },
+
+    {
+        "pergunta": "Quem pintou a Mona Lisa?",
+        "opcoes": ["Van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+        "resposta": "Leonardo da Vinci"
+    },
+
+    {
+        "pergunta": "Qual o elemento químico essencial para a respiração celular?",
+        "opcoes": ["Nitrogênio", "Oxigênio", "Carbono", "Hidrogênio"],
+        "resposta": "Oxigênio"
+    },
+
+    {
+        "pergunta": "O que uma Capivara é?",
+        "opcoes": ["Rato Grande", "Roedor", "Cachorro", "Castor Grande"],
+        "resposta": "Roedor"
+    },
+
+    {
+        "pergunta": "Qual posição do vôlei salva as bolas de rebote ou que sairam da quadra?",
+        "opcoes": ["Ponteiro", "Oposto", "Central", "Líbero"],
+        "resposta": "Líbero"
+    }
+]
