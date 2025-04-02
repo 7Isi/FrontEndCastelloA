@@ -22,15 +22,9 @@
         "opcoes": ["Nitrogênio", "Oxigênio", "Carbono", "Hidrogênio"],
         "resposta": "Oxigênio"
     },
-
+    
     {
-        "pergunta": "O que uma Capivara é?",
-        "opcoes": ["Rato Grande", "Roedor", "Cachorro", "Castor Grande"],
-        "resposta": "Roedor"
-    },
-
-    {
-        "pergunta": "Qual posição do vôlei salva as bolas de rebote ou que sairam da quadra?",
+        "pergunta": "Qual posição do vôlei salva as bolas no chão ou que sairam da quadra?",
         "opcoes": ["Ponteiro", "Oposto", "Central", "Líbero"],
         "resposta": "Líbero"
     }
