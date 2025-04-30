@@ -11,18 +11,19 @@ h1 {
 section {
     background-color: cornflowerblue;
     padding: 15px;
-    margin: 15 px 0;
+    margin: 25px 0;
     border-radius: 13px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 button {
-    background-color: darkseagreen;
-    color: blanchedalmond;
+    background-color: rgb(47, 155, 47);
+    color: rgb(255, 246, 232);
     border: none;
     padding: 8px;
     margin-top: 5px;
     cursor: pointer;
+    border-radius: 7px;
 }
 
 button:houver {
@@ -35,8 +36,22 @@ ul {
 }
 
 li {
-    background-color: blue;
+    background-color: rgba(206, 206, 255, 0.582);
     padding: 5px;
     margin: 5px 0;
     border-radius: 3px;
+}
+
+input {
+    padding: 7px;
+    margin: 6px 0;
+    border-radius: 6px;
+    border: solid 1px #999999;
+}
+
+select {
+    padding: 7px;
+    margin: 6px 0;
+    border-radius: 6px;
+    border: solid 1px #999999;
 }
