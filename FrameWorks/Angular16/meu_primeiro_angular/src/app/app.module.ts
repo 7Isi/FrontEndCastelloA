@@ -8,7 +8,8 @@ import { FooterComponent } from './template/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { ContactComponent } from './pages/contact/contact.component';
-import { CoisaComponent } from './pages/coisa/coisa.component';
+import { FormsModule } from '@angular/forms';
+import { FormsComponent } from './pages/forms/forms.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +19,12 @@ import { CoisaComponent } from './pages/coisa/coisa.component';
     HomeComponent,
     ProductsComponent,
     ContactComponent,
-    CoisaComponent
+    FormsComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

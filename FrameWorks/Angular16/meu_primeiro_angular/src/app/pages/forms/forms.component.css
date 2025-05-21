@@ -1,0 +1,115 @@
+/* ====== Container Principal ====== */
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* ====== Título do Formulário ====== */
+.container h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #0077cc;
+}
+
+/* ====== Estilo do Formulário ====== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="number"] {
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+form input:focus {
+  border-color: #0077cc;
+  box-shadow: 0 0 6px rgba(0, 119, 204, 0.2);
+  outline: none;
+}
+
+/* ====== Linha Separadora ====== */
+hr {
+  margin: 40px 0;
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+}
+
+/* ====== Seção de Visualização ====== */
+.container h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.preview {
+  background-color: #f7f9fc;
+  padding: 20px;
+  border: 1px solid #dce3ea;
+  border-radius: 8px;
+}
+
+.preview p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.preview strong {
+  color: #005fa3;
+}
+
+/* ====== Responsividade ====== */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  .container h2 {
+    font-size: 1.6rem;
+  }
+
+  .container h3 {
+    font-size: 1.3rem;
+  }
+
+  form input {
+    font-size: 0.95rem;
+  }
+
+  .preview p {
+    font-size: 1rem;
+  }
+}
+
+/* Botão de envio */
+button {
+  margin: 10px 50px;
+  padding: 9px;
+  background: #3182ce;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
