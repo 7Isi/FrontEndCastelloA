@@ -7,6 +7,7 @@ import { Pedido } from '../models/pedido.model';
   providedIn: 'root'
 })
 
+
 export class DadosService {
   private clientes: Cliente[] = [];
 
@@ -42,9 +43,8 @@ export class DadosService {
     this.produtos.push(produto);
   }
 
-  add(pedido:Pedido): void{
+  addPedido(pedido:Pedido): void{
     this.pedidos.push(pedido);
   }
-
 
 }

@@ -27,6 +27,8 @@ export class ProdutoFormComponent {
     this.dadosService.addProduto(produto);
     this.nome= "";
     this.preco= 0;
+
+    alert("Produto cadastrado com sucesso!!");
   }
 
 }

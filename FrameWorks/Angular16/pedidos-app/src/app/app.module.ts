@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { ClienteFormComponent } from './section/cliente-form/cliente-form.component';
 import { ProdutoFormComponent } from './section/produto-form/produto-form.component';
 import { PedidoFormComponent } from './section/pedido-form/pedido-form.component';
-import { PedidosListComponent } from './section/pedidos-list/pedidos-list.component';
 import { FormsModule } from '@angular/forms';
+import { PedidosListComponent } from './section/pedidos-list/pedidos-list.component';
 
 @NgModule({
   declarations: [

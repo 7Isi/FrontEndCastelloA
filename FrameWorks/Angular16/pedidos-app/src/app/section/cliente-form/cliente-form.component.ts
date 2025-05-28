@@ -19,6 +19,9 @@ export class ClienteFormComponent {
     const cliente = new Cliente(this.dadosSercive.getClientes().length +1, this.nome);
     this.dadosSercive.addCliente(cliente);
     this.nome= "";
+    alert("Cliente salvo com sucesso!!");
   }
+
+
 
 }

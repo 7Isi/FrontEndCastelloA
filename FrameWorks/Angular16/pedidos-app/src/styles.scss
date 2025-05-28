@@ -1,1 +1,74 @@
-/* You can add global styles to this file, and also import other style files */
+//dá pra bota comentarios com barra dupla kk
+
+
+//reset das configurações iniciais das tags
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(52, 53, 73);
+  color: lightgray;
+  padding: 20px;
+}
+
+
+//container
+.container {
+  max-width: 1000px;
+  margin: 0 auto; //centralizar os componentes
+  background-color: rgb(145, 177, 206);
+  padding: 30px;
+  border-radius: 13px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+h1, h2, h3  {
+  color:royalblue;
+  margin-bottom: 13px;
+}
+
+
+button {
+  padding: 8px 16px;
+  background-color: rgb(124, 202, 255);
+  border: none;
+  color: darkblue;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover{
+    background-color: aquamarine;
+  }
+}
+
+
+input, select  {
+  padding: 8px;
+  margin: 8px 0 16px 0;
+  width: 100%;
+  border: 1px solid rgb(41, 67, 146);
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+
+label {
+  font-size: 13px;
+  font-weight: bold;
+  display: block;
+  margin-top: 13px;
+  color: rgb(74, 101, 253);
+}
+
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid royalblue;
+}
