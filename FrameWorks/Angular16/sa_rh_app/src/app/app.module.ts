@@ -19,14 +19,14 @@ import { HttpClientModule } from '@angular/common/http';
     VagasComponent,
     CurriculosComponent,
     PainelVagasComponent,
-    HomeComponent
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule //mídulo necessário para que a página faça as requisições HttpClient
+    HttpClientModule, //mídulo necessário para que a página faça as requisições HttpClient
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -23,34 +23,44 @@ export class Vaga {
     private _salario: number
   ) {}
 
+  
   // métodos publicos( get set)
   public get salario(): number {
     return this._salario;
   }
+
   public set salario(value: number) {
     this._salario = value;
   }
+
   public get descricao(): string {
     return this._descricao;
   }
+
   public set descricao(value: string) {
     this._descricao = value;
   }
+
   public get foto(): string {
     return this._foto;
   }
+
   public set foto(value: string) {
     this._foto = value;
   }
+
   public get nome(): string {
     return this._nome;
   }
+
   public set nome(value: string) {
     this._nome = value;
   }
+
   public get id(): number {
     return this._id;
   }
+
   public set id(value: number) {
     this._id = value;
   }
@@ -68,6 +78,12 @@ export class Vaga {
   }
   //fromMap : BD => obj
   static fromMap(map: any): Vaga {
-    return new Vaga(map.id, map.nome, map.foto, map.descricao, map.salario);
+    return new Vaga(
+      map.id,
+      map.nome,
+      map.foto,
+      map.descricao,
+      map.salario
+    );
   }
 }

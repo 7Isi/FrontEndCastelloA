@@ -6,16 +6,14 @@ import { CurriculosComponent } from './views/curriculos/curriculos.component';
 import { PainelVagasComponent } from './views/painel-vagas/painel-vagas.component';
 
 const routes: Routes = [
-  {path: "", component: HomeComponent},
-  {path: "vagas", component: VagasComponent},
-  {path: "curriculo", component: CurriculosComponent},
-  {path: "painel-vagas", component: PainelVagasComponent},
-
+  { path: '', component: HomeComponent },
+  { path: 'vagas', component: VagasComponent },
+  { path: 'curriculo', component: CurriculosComponent },
+  { path: 'painel-vagas', component: PainelVagasComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-
-export class AppRoutingModule { }
+export class AppRoutingModule {}
