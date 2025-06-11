@@ -1,17 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import { Vaga } from 'src/app/models/vaga.model';
-import { VagaService } from 'src/app/services/vaga.service';
+import { Curriculo } from 'src/app/models/curriculo.model';
+import { CurriculoService } from 'src/app/services/curriculo.service';
 
 @Component({
-  selector: 'app-painel-vagas',
-  templateUrl: './painel-vagas.component.html',
-  styleUrls: ['./painel-vagas.component.scss'],
+  selector: 'app-painel-curriculos',
+  templateUrl: './painel-curriculo.component.html',
+  styleUrls: ['./painel-curriculo.component.scss'],
 })
-export class PainelVagasComponent implements OnInit {
-  //controller -> view
+export class PainelCurriculoComponent implements OnInit {
   //fazer os controller para Vagas
-  public vagas: Vaga[] = []; //armazena os dados da API
-  public vaga: Vaga = new Vaga(0, '', '', '', 0); //manipular no Formulário(inserir, modificar, deletar)
+  public curriculos: Curriculo[] = []; //armazena os dados da API
+  public curriculo: Curriculo = new Vaga(0, '', '', '', 0); //manipular no Formulário(inserir, modificar, deletar)
 
   constructor(private _vagaService: VagaService) {}
 
