@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  background-color:lavenderblush;
+}
+
+button {
+  margin-left: 6px;
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  cursor: pointer;
+  font-size: 15px;
+}

@@ -31,7 +31,7 @@ export class RegistroComponent {
 
   onSubmit(){
     if(this.formRegistro.valid){
-      this.authService.registrar(this.formRegistro.value).subscribe(
+      this.authService.registar(this.formRegistro.value).subscribe(
         {
           next: () => {
             alert ("Usuário registrado com sucesso!");
